@@ -28,6 +28,26 @@
         }
       }
     },
+    "/others": {
+      "get": {
+        "tags": [
+          "hello-controller"
+        ],
+        "operationId": "others",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/actuator/health": {
       "get": {
         "tags": [

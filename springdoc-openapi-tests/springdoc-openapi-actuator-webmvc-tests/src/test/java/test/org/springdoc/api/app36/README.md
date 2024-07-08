@@ -11,7 +11,7 @@
     * 👁️ ALL endpoints defined in "HelloController" are displayed 👁️
   * "http://localhost:8080/swagger-ui/index.html"
     * NO existing
-      * Reason: 🧠 TODO: 🧠
+      * Reason: 🧠 Just 'org.springdoc:springdoc-openapi-starter-webmvc-api' used 🧠
 
 ## SpringDocApp36Test
 * TODO:
