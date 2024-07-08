@@ -26,7 +26,12 @@ public class HelloController {
 
 	@GetMapping("/persons")
 	public String persons() {
-		return "OK";
+		return "OK - persons";
+	}
+
+	@GetMapping("/others")
+	public String others() {
+		return "OK - others";
 	}
 
 }
