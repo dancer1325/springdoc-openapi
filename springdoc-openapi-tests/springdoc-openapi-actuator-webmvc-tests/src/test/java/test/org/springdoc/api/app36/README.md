@@ -1,3 +1,6 @@
+# Goal
+* springDoc is based on SpringConfigurations
+
 ## Structure
 * "SpringDocApp36Real"
   * real spring boot app
