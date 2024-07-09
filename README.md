@@ -44,6 +44,7 @@ IMPORTANT:
   * how does it work?
     * infer API semantics -- based on -- examine an application at runtime
       * Spring configurations
+        * ❌NOT ❌in placing OpenAPI specificaton in the classpath -- [Example](https://github.com/dancer1325/springdoc-openapi-demos/tree/master/springdoc-openapi-spring-boot-2-webmvc#notes) --
       * class structure 
       * various annotations
     * +`swagger-api` annotations
