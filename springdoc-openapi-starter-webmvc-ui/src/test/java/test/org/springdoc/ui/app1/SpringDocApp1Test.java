@@ -43,7 +43,11 @@ public class SpringDocApp1Test extends AbstractSpringDocTest {
 		super.chekJS();
 	}
 
-	@SpringBootApplication
+	// NOT valid here, need to extract in another class
+	/*@SpringBootApplication
 	static class SpringDocTestApp {
-	}
+		public static void main(String[] args) {
+			SpringApplication.run(SpringDocTestApp.class, args);
+		}
+	}*/
 }
