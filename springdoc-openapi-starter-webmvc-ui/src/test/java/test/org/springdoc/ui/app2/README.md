@@ -17,7 +17,7 @@
     * Problems:
       * Problem1: How to pass this property?
         * Attempt1: `@PropertySource(value = "springdoc.swagger-ui.enabled=false")`
-          * Solution: TODO:
+        * Solution: Via `SpringApplication.setDefaultProperties()` -- Check [documentation](https://docs.spring.io/spring-boot/reference/features/external-config.html) --
 
 ## Rest
 * TODO:
