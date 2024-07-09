@@ -1,20 +1,23 @@
 # Goal
-* 
+* test `springdoc.swagger-ui.enabled` property
 
 ## Structure
-* "SpringDocTestApp"
+* "SpringDocApp2Real"
   * real spring boot app
-* rest
+* "SpringDocApp2Test"
   * test spring boot app
 
-## SpringDocTestApp
+## SpringDocApp2Real
 * Run it locally
 * Open in your browser
-  * in any page -> redirect to "http://localhost:8080/login"  -- Check '../app1' --
   * "http://localhost:8080/v3/api-docs"
-    * TODO: Pending to previous problems
+    * Check how ALL is based on the defined beans -- "HelloController" --
   * "http://localhost:8080/swagger-ui/index.html"
-    * `TODO: Pending to previous problems
+    * Check how NOTHING is displayed, since it's disabled
+    * Problems:
+      * Problem1: How to pass this property?
+        * Attempt1: `@PropertySource(value = "springdoc.swagger-ui.enabled=false")`
+          * Solution: TODO:
 
 ## Rest
 * TODO:
