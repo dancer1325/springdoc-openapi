@@ -13,6 +13,8 @@
   * in any page -> redirect to "http://localhost:8080/login"
     * Problems:
       * Problem1: What are the credentials to access?
+        * Attempt1: Switch to release org.springdoc:springdoc-openapi version
+        * Solution: TODO:
     * Note: Where does it come from? TODO:
   * "http://localhost:8080/v3/api-docs"
     * TODO: Pending to previous problems
