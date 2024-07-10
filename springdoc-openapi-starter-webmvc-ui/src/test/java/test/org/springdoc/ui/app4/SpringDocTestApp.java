@@ -27,12 +27,14 @@ package test.org.springdoc.ui.app4;
 
 import org.springdoc.core.models.GroupedOpenApi;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class SpringDocTestApp {
 
+	// create a external configuration document
 	@Bean
 	public GroupedOpenApi storeOpenApi() {
 		String[] paths = { "/store/**" };
@@ -50,6 +52,10 @@ public class SpringDocTestApp {
 				.displayName("zpets")
 				.pathsToMatch(paths)
 				.build();
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringDocTestApp.class, args);
 	}
 
 }
