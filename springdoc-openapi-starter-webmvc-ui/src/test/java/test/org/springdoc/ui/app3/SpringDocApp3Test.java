@@ -54,6 +54,4 @@ public class SpringDocApp3Test extends AbstractSpringDocTest {
 				.andExpect(jsonPath("urls").doesNotExist());
 	}
 
-	@SpringBootApplication
-	static class SpringDocTestApp {}
 }
