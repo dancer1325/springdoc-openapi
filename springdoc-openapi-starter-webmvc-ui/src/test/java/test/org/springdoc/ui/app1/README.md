@@ -2,12 +2,12 @@
 * 👁️check Swagger UI behavior -- based on -- Spring Configuration 👁️
 
 ## Structure
-* "SpringDocTestApp"
+* "SpringDocRealApp"
   * real spring boot app
 * rest
   * test spring boot app
 
-## SpringDocTestApp
+## SpringDocRealApp
 * Run it locally
 * Open in your browser
   * in any page -> redirect to "http://localhost:8080/login"
